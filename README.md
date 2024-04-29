@@ -1,16 +1,18 @@
-# Fresh project
+# shadcn-fresh example
 
-Your new Fresh project is ready to go. You can follow the Fresh "Getting
-Started" guide here: https://fresh.deno.dev/docs/getting-started
+this is an example project for using
+http://github.com/kewp/shadcn-fresh, a port
+of shadcn/ui to fresh (see the repo above for
+more on how i did this).
 
-### Usage
+## geting started
 
-Make sure to install Deno: https://deno.land/manual/getting_started/installation
+just run `deno task start`
 
-Then start the project:
+## how it was done / doing it your own
 
-```
-deno task start
-```
+1. create a new fresh project the standard way (`deno run -A -r https://fresh.deno.dev`). make sure to include tailwind
+2. import `shadcn-fresh`
+3. prosper
 
-This will watch the project directory and restart as necessary.
+> still busy figuring this all out ...
