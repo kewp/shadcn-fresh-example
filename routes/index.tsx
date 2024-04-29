@@ -1,5 +1,6 @@
 import { useSignal } from "@preact/signals";
 import Counter from "../islands/Counter.tsx";
+import MyCard from '../islands/MyCard.tsx';
 
 export default function Home() {
   const count = useSignal(3);
@@ -18,6 +19,7 @@ export default function Home() {
           Try updating this message in the
           <code class="mx-2">./routes/index.tsx</code> file, and refresh.
         </p>
+        <MyCard />
         <Counter count={count} />
       </div>
     </div>
