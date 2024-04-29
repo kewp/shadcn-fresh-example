@@ -1,4 +1,5 @@
 import { type PageProps } from "$fresh/server.ts";
+import { asset } from "$fresh/runtime.ts"
 export default function App({ Component }: PageProps) {
   return (
     <html>
@@ -7,6 +8,7 @@ export default function App({ Component }: PageProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>shadcn-fresh-example</title>
         <link rel="stylesheet" href="/styles.css" />
+        <link href={asset("/uno.css")} rel="stylesheet" />
       </head>
       <body>
         <Component />
