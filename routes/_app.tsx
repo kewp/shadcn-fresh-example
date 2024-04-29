@@ -9,7 +9,7 @@ export default function App({ Component }: PageProps) {
         <title>shadcn-fresh-example</title>
         <link rel="stylesheet" href="/fonts.css" />
         {/* <link rel="stylesheet" href="/styles.css" /> */}
-        <link href={asset("/shadcn.css")} rel="stylesheet" />
+        {/* <link href={asset("/shadcn.css")} rel="stylesheet" /> */}
       </head>
       <body>
         <Component />

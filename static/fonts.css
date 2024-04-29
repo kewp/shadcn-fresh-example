@@ -1,4 +1,10 @@
 @font-face {
   font-family: "geist";
-  src: url("Geist-Regular.woff2") format("woff2");
+  /* src: url("Geist-Regular.woff2") format("woff2"); */
+  src: url("font2.woff2") format("woff2");
+}
+
+html {
+    font-family: 'geist', sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
