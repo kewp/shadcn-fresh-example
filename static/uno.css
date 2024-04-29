@@ -10,7 +10,7 @@ html{
   -webkit-text-size-adjust:100%;
   -moz-tab-size:4;
   tab-size:4;
-  font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji"
+  font-family:"geist",ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji"
 }
 
 body{
@@ -226,7 +226,7 @@ img,video{
 	--un-backdrop-invert: ;
 	--un-backdrop-opacity: ;
 	--un-backdrop-saturate: ;
-	--un-backdrop-sepia: 
+	--un-backdrop-sepia:
 }
 
 ::backdrop{
@@ -279,7 +279,7 @@ img,video{
 	--un-backdrop-invert: ;
 	--un-backdrop-opacity: ;
 	--un-backdrop-saturate: ;
-	--un-backdrop-sepia: 
+	--un-backdrop-sepia:
 }
 
 @keyframes shadcn-down{
@@ -336,7 +336,7 @@ img,video{
 	--destructive: 0,100%,50%;
 	--destructive-foreground: 210,40%,98%;
 	--ring: 215,20.2%,65.1%;
-	--radius: .5rem 
+	--radius: .5rem
 }
 
 .dark{
@@ -359,7 +359,7 @@ img,video{
 	--destructive: 0,63%,31%;
 	--destructive-foreground: 210,40%,98%;
 	--ring: 216,34%,17%;
-	--radius: .5rem 
+	--radius: .5rem
 }
 
 .i-lucide\:bold{
